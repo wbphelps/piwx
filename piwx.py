@@ -39,7 +39,7 @@ Colors = pyColors()
 parser = argparse.ArgumentParser(description='piwx weather data display')
 parser.add_argument('host', default='127.0.0.1', nargs='?', help='hostname or ip address')
 parser.add_argument('--key', default='wxdata key', nargs='?', help='security key')
-Bparser.add_argument('--port', default=6000, type=int, nargs='?', help='port number')
+parser.add_argument('--port', default=6000, type=int, nargs='?', help='port number')
 args = parser.parse_args()
 print args
 
